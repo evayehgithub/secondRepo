@@ -33,6 +33,7 @@ void merge(int *data, int start, int mid, int end) {
 			right++;
 		}
 	}
+	// come here  - diff 88314536430
 	/* 複製到原始陣列的區段 */
 	for (i = 0; i < (end - start + 1); i++) {
 		data[start + i] = finalData[i];
